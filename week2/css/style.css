@@ -5,11 +5,11 @@ html, body {
 	height:100%;
 }
 body {
-	color:#666;
-	background-color:rgb(148, 187, 233);
+	color:#51;
+	background-color:rgb(20, 180, 248);
 }
 h1 {
-	color:#666;
+	color:#466;
 	font-size:20px;
 	font-size:1.25rem;
 	text-align:center;
@@ -17,11 +17,11 @@ h1 {
 	padding:0.5rem 0;
 }
 a {
-	color:#0095dd;
+	color:#0085dd;
 	text-decoration:none;
 }
 a:hover, a:focus {
-	color:#2255aa;
+	color:#255aa;
 	text-decoration:underline;
 }
 figure {
@@ -39,10 +39,10 @@ figure {
 	top:0px;
 }
 video {
-	width:100%;
+	width:60%;
 }
 .title_img{
-	width:100%;
+	width:60%;
 }
 #draggable{
 	top:0px;
@@ -128,7 +128,7 @@ video {
 	width: 100%;
 	height: 100%;
 	display: inline-block;
-	background: rgb(148, 187, 233);
+	background: rgb(118, 117, 103);
 	top:0px;
 	z-index: -10;
 }
