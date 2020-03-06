@@ -1,0 +1,41 @@
+h1{
+	color:coral;
+}
+
+.rectangle{
+	background-color:black;
+	color: white;
+
+
+}
+
+
+
+body {background-color: #f4f4f4;
+	font-color:white;}
+
+	.landing_animation_container{
+		width: 100%;
+		height:100%;
+
+	}
+	.background_animation{
+		width: 100%;
+		height: 100%;
+		background: black;
+		position: fixed;
+		top: 0%;
+		left: 0%;
+		animation-name: black_background_animation;
+		animation-duration:3s;
+		animation-fill-mode: forwards;
+		animation-delay: 3s;
+	}
+
+	@keyframes black_background_animation{
+		0%{opacity:1;
+		}
+		100%{
+			opacity:0;
+		}
+	}
