@@ -1,0 +1,35 @@
+#package{
+	width: 400px;
+	height: 600px;
+	background-color: red;
+	/* horizontal + vertical center align - parent div */
+	position: relative;
+	/*//////*/
+}
+
+#name{
+    font-family: 'Lacquer' ;
+	margin: 0;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 70px;
+	/*//////*/
+	font-size: 100px;
+	color:white;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: white;
+	letter-spacing: -3px;
+	text-shadow: white 5px;
+}
+#brand{
+	margin: 0;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 40px;
+	/*//////*/
+	color:white;
+	letter-spacing: 5px;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: white;
+	text-shadow: white 5px;}
