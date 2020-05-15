@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset ="utf 8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="week9.css">
+	<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica">
+	<title> Sebastian Baksh Portfolio </title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id= "branding">
+				<h1><span class="highlight">Poem</span></h1>
+		</div>
+		<nav>
+			<ul>
+				<li> <a href="week3.html"> Week 3 </a> </li>
+				<li> <a href="week4.html"> Week 4 </a> </li>
+				<li> <a href="week5.html"> Week 5 </a> </li>
+				<li> <a href="week6.html"> Week 6 </a> </li>
+				<li> <a href="week8.html"> Week 8 </a> </li>
+				<li> <a href="index.html"> Home </a> </li>
+				<li> <a href="week10.html"> Week 10 </a> </li>
+			</ul>
+			
+	</nav>
+	</header>
+	<div id= "poem">
+<p>
+When Daylight kisses the Earth goodbye <br>
+A sunbathed Earth's time is nigh<br>
+When Moonlight kisses the Earth hello<br>
+A <span id="tree">Tree</span> will die, the leaves will cry. 
+</p>
+</div>
+
+<button onclick="myFunction()">
+shuffle!
+</button>
+
+<script>
+
+
+function myFunction(){
+  
+  var randomNumber = Math.random();
+  var chosenWord = "";
+  var bgColor = "";
+
+  
+  if (randomNumber > 0.5){
+    
+    chosenWord = "tree";
+    bgColor = "green";
+  }else{
+    
+    chosenWord = "star";
+    bgColor = "coral";
+  }
+
+  
+  var tree = document.getElementById("tree");
+  var poem = document.getElementById("poem");
+
+  
+  tree.innerHTML = chosenWord;
+  poem.style.backgroundColor = bgColor;
+
+ 
+  console.log(randomNumber);
+}
+</script>
+	<footer>
+			<p> Sebastian Baksh Portfolio, Copyright &copy; 2020</p>
+		</footer>
+	</div>
+</body>

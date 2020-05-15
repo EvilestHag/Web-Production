@@ -1,0 +1,155 @@
+body{
+	font-family: "IM Fell Double Pica";
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin:0;
+	background-color: #f4f4f4;
+	background-image: url("promar.gif");
+}
+
+
+				/*Global*/
+.container{
+	width:80%;
+	margin: auto;
+	overflow:hidden;
+}
+
+ul{
+	margin: 0
+	padding:0;
+	font-size: 24px;
+}
+
+/*Header*/
+
+header{
+	background:#000000;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #ee608d 5px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+
+header .highlight, header .current a{
+	color:#C20000;
+	font-weight:bold;
+}
+
+/*Showcase*/
+
+
+
+#package {
+    width: 720px;
+    height: 240px;
+    background-color: blue;
+    position: absolute;
+    z-index: 2
+}
+	#name {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    color: white;
+    text-shadow: red;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: -3px;
+}
+
+#subtitle {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-family: bold;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 22px;
+    text-shadow: pink, 15px
+    color:pink;
+    border-color: white;
+    border:15px;
+
+
+}
+
+#corner{
+	position: absolute;
+	right: 88%;
+	background-color:red;
+	font-family: sans-serif;
+	font-style: bold;
+  	letter-spacing: +4px;
+	font-size: 15px;
+}
+
+#weight {
+    position: absolute;
+    bottom: 7%;
+    left: 3%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#subtitle2 {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 16px;
+    color: black;
+    padding: 9px;
+}
+
+#calories {
+    position: absolute;
+    bottom: 7%;
+    right: 3%;
+    font-family: sans-serif;
+    font-size: 9px;
+    text-align: center;
+    background-color: teal;
+    border: 3px solid black;
+    border-radius: 12%;
+    padding: 6px;
+}
+	#contents {
+    width: 720px;
+    height: 240px;
+    position: absolute;
+    z-index: 1;
+}
+
+	footer{
+		padding:20px;
+		color:#ffffff;
+		background-color:#C20000;
+		text-align: center;
+		}

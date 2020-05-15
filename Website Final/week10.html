@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset ="utf 8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica">
+	<title> Sebastian Baksh Portfolio </title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id= "branding">
+				<h1><span class="highlight">Homepage</span></h1>
+		</div>
+		<nav>
+			<ul>
+				<li> <a href="week3.html"> Week 3 </a> </li>
+				<li> <a href="week4.html"> Week 4 </a> </li>
+				<li> <a href="week5.html"> Week 5 </a> </li>
+				<li> <a href="week6.html"> Week 6 </a> </li>
+				<li> <a href="week8.html"> Week 8 </a> </li>
+				<li> <a href="week9.html"> Week 9 </a> </li>
+				<li> <a href="index.html"> Home </a> </li>
+			</ul>
+			
+	</nav>
+	</header>
+	<html><head>
+<style>
+
+/* Slideshow container */
+.slideshow-container {
+  width: 60%;
+  position: relative;
+  background: #f1f1f1f1;
+  margin:0px auto;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  height: 1100px;
+  text-align: center;
+}
+
+/* assign images of project to each slide div */
+#slide1{
+  background-image: url('sketch1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#slide2{
+  background-image: url('sketch2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#slide3{
+  background-image: url('sketch3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.description{
+  position: absolute; 
+  left:7%; 
+  bottom:7%;
+  background-color: coral;
+  padding:8px;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #898;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+</style>
+</head>
+
+<body>
+<div>
+  <div class="slideshow-container">
+
+  <!-- slide show divs -->
+  <div id="slide1" class="mySlides" style="display: none;">
+    <div class="description">
+      <p class="author">Sketch 1 </p>
+      
+    </div>
+  </div>
+
+  <div id="slide2" class="mySlides" style="display: none;">
+    <div class="description">
+      <p class="author">Sketch 2 </p>
+
+    </div>
+  </div>
+
+  <div id="slide3" class="mySlides" style="display: block;">
+    <div class="description">
+      <p class="author">Sketch 3 </p>
+   
+    </div>
+  </div>
+
+  
+  <a class="prev" onclick="setIndexFromSideButton(-1)">❮</a>
+  <a class="next" onclick="setIndexFromSideButton(1)">❯</a>
+
+  </div>
+
+</div>
+
+<script>
+
+ 
+var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function setIndexFromSideButton(n){
+
+  
+  slideIndex = slideIndex + n;
+
+
+  
+  showSlides();
+
+}
+
+function showSlides() {
+
+  
+  var slideDivElements = document.getElementsByClassName("mySlides"); 
+
+
+  
+  if (slideIndex > slideDivElements.length) {slideIndex = 1} 
+
+
+  
+  if (slideIndex < 1) {slideIndex = slideDivElements.length} 
+
+
+  
+  for (var i = 0; i < slideDivElements.length; i++) {
+      slideDivElements[i].style.display = "none";  
+  }
+
+
+  
+  slideDivElements[slideIndex-1].style.display = "block";  
+
+}
+</script>
+
+
+ 
+</body></html>
+	<footer>
+			<p> Sebastian Baksh Portfolio, Copyright &copy; 2020</p>
+		</footer>
+	</div>
+</body>

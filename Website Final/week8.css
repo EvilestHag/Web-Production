@@ -1,0 +1,96 @@
+body{
+	font-family: "IM Fell Double Pica";
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin:0;
+	background-color: #f4f4f4;
+	background-image: url("promare.gif");
+}
+
+
+				/*Global*/
+.container{
+	width:80%;
+	margin: auto;
+	overflow:hidden;
+}
+
+ul{
+	margin: 0
+	padding:0;
+	font-size: 24px;
+}
+
+/*Header*/
+
+header{
+	background:#000000;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #ee608d 5px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+
+header .highlight, header .current a{
+	color:#C20000;
+	font-weight:bold;
+}
+
+/*Showcase*/
+
+	#showcase{
+		min-height: 400px;
+		background:url(devilmangif.gif);
+		text-align: center;
+		color:#ffffff;
+		border:#000000 5px solid;
+	}
+
+	#showcase h1{
+		margin-top: 100px;
+		font-size: 55px;
+		margin-bottom: 10px
+	}
+
+	#boxes .box{
+		float:left;
+		text-align: center;
+		width: 40%;
+		padding: 10px;
+		margin-left: 350px;
+		background-color: black;
+		color:white;
+		
+	}
+
+	#boxes .box img{
+		width: 100px;
+	}
+
+	
+
+	footer{
+		padding:20px;
+		color:#ffffff;
+		background-color:#C20000;
+		text-align: center;
+		}
